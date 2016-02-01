@@ -1,0 +1,227 @@
+body, html {
+  left: 0;
+  margin: 0;
+  position: relative;
+  height: calc(100% - 30px);
+}
+
+.jumbotron {
+  background-image: url('../assets/bgtest1.jpg');
+  height: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+h1#title {
+  text-align: left;
+  font-size: 2.3em;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  padding-left: 7%;
+}
+
+h1#title:hover{
+  color: #008400;
+  -webkit-transition: all 0.4s ease-in;
+}
+
+h1#titleGMs, h1#titleAcc, h1#titleSettings {
+  text-align: left;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  color: #151515;
+  font-size: 1.5em;
+}
+
+h1#titleGMs:hover, h1#titleAcc:hover, h1#titleSettings:hover{
+  color: #008400;
+  -webkit-transition: all 0.4s ease-in;
+}
+
+small#subtitle {
+  color: #989D98;
+}
+
+small#subtitleGMs {
+  color: #989D98;
+  font-size: 0.8em;
+}
+
+span#betaTitle {
+  font-size: 0.4em !important;
+}
+
+span#currencyTitle {
+  margin-top: 3px;
+}
+
+img#logo {
+  height: 39px;
+  width: 100px;
+  float: right;
+}
+
+nav#headerNav.page-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  background-color: #FAFAFA;
+  border-bottom: 3px solid #989D98;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, .5);
+}
+
+nav#GMsNav.page-header, nav#accNav.page-header, nav#settingsNav.page-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  background-color: #FAFAFA;
+  border-bottom: 3px solid #989D98;
+}
+
+nav#headerNav.page-header:hover, nav#GMsNav.page-header:hover, nav#accNav.page-header:hover, nav#settingsNav.page-header:hover {
+    -webkit-transition: all 0.4s ease-in;
+    -webkit-animation-name: colouredbar;
+    -webkit-animation-duration: 6s;
+    -webkit-transition: all 0.4s ease-out;
+    animation: colouredbar 25s infinite;
+}
+
+@-webkit-keyframes colouredbar { /* Chrome, Safari */
+    0%   {border-bottom: 3px solid green;}
+    19%  {border-bottom: 3px solid blue;}
+    38%  {border-bottom: 3px solid purple;}
+    48%  {border-bottom: 3px solid red;}
+    72%  {border-bottom: 3px solid orange;}
+    91%  {border-bottom: 3px solid yellow;}
+    100% {border-bottom: 3px solid green;}
+}
+
+div#sideMenu {
+  height: 100%;
+  background-color: rgb(250, 250, 250);
+  position: absolute;
+  margin-top: 0px;
+  border-right: 3px solid #989D98;
+  box-shadow: 11px 0px 0px rgba(0, 0, 0, .5);
+  overflow-y: scroll;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+div#open-menu {
+  -vendor-animation-duration: 1.5s;
+  -vendor-animation-delay: 1s;
+}
+
+img#open-menu-img {
+ cursor: pointer;
+ margin-right: 0px;
+ padding-right: 0px;
+ margin-top: 9px;
+ margin-bottom: 0px;
+ height: 38px;
+ width: 38px;
+}
+
+img#open-menu-img-hov {
+  cursor: pointer;
+  display: none;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  height: 38px;
+  width: 38px;
+}
+
+div#close-menu {
+  display: block;
+  height: 55px;
+  width: 55px;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  float: right;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+}
+
+span#close-menu-icon {
+  cursor: pointer;
+  color: grey;
+  font-size: 2em;
+  margin-top: 14px;
+  position: static;
+}
+
+span#close-menu-icon:hover {
+  color: green;
+}
+
+.sideMenuImgAnimation {
+  position: relative;
+  float: left;
+  height: 38px;
+  width: 38px;
+  overflow: hidden;
+    -webkit-animation: reveal 1s ease;
+    -webkit-animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes reveal {
+ 0%   {width: 0px;}
+ 50%  {width: 19px;}
+ 100% { width: 38px;}
+}
+
+@keyframes reveal {
+ 0%   {width: 0px;}
+ 50%  {width: 19px;}
+ 100% { width: 38px;}
+}
+
+img#menu-prof-pic {
+    height: 55px;
+    width: 55px;
+    border-radius: 55px;
+  	-webkit-border-radius: 55px;
+  	-moz-border-radius: 55px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Modding boostrap classes */
+.green-badge {
+  background-color: green !important;
+}
+
+.media-body-menu-fit {
+  width: auto;
+  height:auto;
+  padding-right: 100px;
+}
+
+.list-group-item-fix {
+  margin-bottom: 0px;
+}
+
+/*overflow design */
+::-webkit-scrollbar {
+  width: 0.19em;
+  height: 0.19em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #989D98;
+}
+
+::-webkit-scrollbar-track {
+  background: #E6E6E6;
+}
