@@ -1,7 +1,17 @@
-var sideMenu = function() {
-  $('div#open-menu').click(function() {
-    $('div#close-menu').show();
+window.onload = function() {
+  $('#sideMenu').animate({
+    left: "-40%"
+  }, 380);
 
+  $('.jumbotron').animate({
+    left: "0px"
+  }, 380);
+
+  $("div#open-menu").click(function() {
+    $(this).find('img').toggle().removeClass('sideMenuImgAnimation').addClass('animated flipInY');
+  });
+
+  $("img#open-menu-img").click(function() {
     $('#sideMenu').animate({
       left: "0px"
     }, 380);
@@ -11,8 +21,7 @@ var sideMenu = function() {
     }, 380);
   });
 
-  $('span#close-menu-icon').click(function() {
-    $('div#close-menu').hide();
+  $('img#open-menu-img-hov').click(function() {
 
     $('#sideMenu').animate({
       left: "-40%"
@@ -23,6 +32,3 @@ var sideMenu = function() {
     }, 380);
   });
 };
-
-
-$(document).ready(sideMenu);
