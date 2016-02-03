@@ -1,0 +1,188 @@
+<div id="chatPanel" class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Chat: <span style="float:right" class="glyphicon glyphicon-comment"></h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- stea prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof -->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="media">
+          <div class="media-left">
+            <a href="#"> <!-- steam prof-->
+              <img id="skin-prof-img" class="media-object" src="assets/profpicholder.png" alt="AWP | Dragon Lore">
+            </a>
+          </div>
+          <div class="media-body">
+            <h5 class="media-heading"><strong>stormzy</strong></h5>
+            <h5 class="media-heading">tell my man shut up</h5>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="chatfooter" class="panel-footer navbar-fixed-bottom">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Type a message:">
+      <span class="input-group-btn">
+        <button class="btn btn-success" type="button">Post!</button>
+      </span>
+    </div>
+  </div>
+</div>
+
+div#potPanel {
+  position: relative;
+  margin-top: -10px;
+  width: 44%;
+  margin-left: 5%;
+  opacity: 0.8;
+  height: 50%;
+  overflow: auto;
+}
+
+div.potScrollPos {
+  margin-top: -30px;
+}
+
+div#playersPanel {
+  position: relative;
+  width: 44%;
+  margin-left: 5%;
+  opacity: 0.8;
+  height: 50%;
+  overflow: auto;
+}
+
+img#skin-prof-img {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+}
+
+img#skin-prof-img-xl {
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+}
+
+div#chatPanel {
+  position: relative;
+  width: 44%;
+  float: right;
+  margin-right: 5%;
+  opacity: 0.8;
+  margin-top: -10px;
+  height: calc(100% + 20px);
+  overflow: auto;
+}
+
+div#chatfooter {
+  position: static;
+  margin-bottom: 0px;
+  bottom: 0;
+  width: 100%;
+  float: bottom;
+}
