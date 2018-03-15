@@ -1,2 +1,1 @@
 # CSGOJackpotTemplate
-# omarCSGOJackpot
